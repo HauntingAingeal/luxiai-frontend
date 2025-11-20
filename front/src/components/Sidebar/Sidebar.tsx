@@ -5,7 +5,7 @@ import "./Sidebar.css";
 export default function Sidebar() {
 return (
 <aside className="sidebar">
-<h2 className="logo">LuxiAI</h2>
+<h2 className="text-gradient">LuxiAI</h2>
 <nav>
 <ul>
 <li><NavLink to="/dashboard">Dashboard</NavLink></li>
