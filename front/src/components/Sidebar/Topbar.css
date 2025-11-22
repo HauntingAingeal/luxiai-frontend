@@ -1,0 +1,41 @@
+.topbar {
+  height: 70px;
+  background: #132032;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  color: #cfd7e3;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-logo {
+  width: 40px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #dbe773;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.signout {
+  font-size: 14px;
+}
