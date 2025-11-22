@@ -1,22 +1,39 @@
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
-import logo from "../../assets/Book.svg";
+import { LayoutDashboard, MessageSquare, Layers, Settings } from "lucide-react";
 
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <div className="sidebar-logo">
-        <img src={logo} alt="LuxiAI Logo" className="logo-img" />
-        <h2 className="text-gradient">LuxiAI</h2>
-      </div>
-
       <nav>
         <ul>
-          <li><NavLink to="/dashboard">Dashboard</NavLink></li>
-          <li><NavLink to="/practice">Practice</NavLink></li>
-          <li><NavLink to="/chat">Chat</NavLink></li>
-          <li><NavLink to="/flashcards">Flashcards</NavLink></li>
-          <li><NavLink to="/settings">Settings</NavLink></li>
+          <li>
+            <NavLink to="/dashboard" className="nav-item">
+              <LayoutDashboard size={18} />
+              <span>Dashboard</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/chat" className="nav-item">
+              <MessageSquare size={18} />
+              <span>Chat</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/flashcards" className="nav-item">
+              <Layers size={18} />
+              <span>Flashcards</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/practice" className="nav-item">
+              <Settings size={18} />
+              <span>Practice</span>
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
