@@ -13,8 +13,6 @@ export default function Topbar() {
 
       <div className="right">
         <Moon className="topbar-icon" />
-        <LogOut className="topbar-icon" />
-        <span className="signout">Sign Out</span>
       </div>
     </header>
   );
