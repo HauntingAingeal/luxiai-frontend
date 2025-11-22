@@ -1,6 +1,6 @@
 .topbar {
   height: 70px;
-  background: #132032;
+  background: #172133;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 .topbar-logo {
-  width: 40px;
+  width: 50px;
 }
 
 .brand {
@@ -34,6 +34,14 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.topbar-icon:hover {
+  background: #FA9F38;
+  color: #FFF;
+   border-radius: 8px;
+   padding:1px 1px;
+   transition: 0.2s;
 }
 
 .signout {

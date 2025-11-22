@@ -1,6 +1,6 @@
 .sidebar {
   width: 260px;
-  background: #0e1624;
+  background: #0F1729;
   padding: 25px 20px;
 }
 
@@ -26,7 +26,8 @@
 }
 
 .nav-item:hover {
-  background: #1a2b40;
+  background: #FA9F38;
+  color: #FFF;
 }
 
 .nav-item.active {
