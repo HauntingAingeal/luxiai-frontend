@@ -1,12 +1,14 @@
 .topbar {
   height: 70px;
-  background: #172133;
+  background: #132032;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 25px;
   color: #cfd7e3;
+  flex-shrink: 0; /* impede esmagamento */
 }
+
 
 .left {
   display: flex;

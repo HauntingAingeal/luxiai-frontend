@@ -1,8 +1,10 @@
 .sidebar {
   width: 260px;
-  background: #0e1624;
+  height: 100%;
+  background: #07101d;
   padding: 25px 20px;
 }
+
 
 .sidebar ul {
   list-style: none;
