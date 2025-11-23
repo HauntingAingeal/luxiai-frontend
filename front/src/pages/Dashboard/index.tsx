@@ -1,3 +1,7 @@
 export default function Dashboard() {
-return <h1>Dashboard Page</h1>;
+  return (
+    <div style={{ color: "white", fontSize: 30 }}>
+      DASHBOARD FUNCIONANDO
+    </div>
+  );
 }
