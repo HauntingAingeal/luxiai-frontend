@@ -1,6 +1,6 @@
 .sidebar {
   width: 260px;
-  background: #0F1729;
+  background: #0e1624;
   padding: 25px 20px;
 }
 
@@ -27,7 +27,7 @@
 
 .nav-item:hover {
   background: #FA9F38;
-  color: #FFF;
+  color: #fff;
 }
 
 .nav-item.active {
@@ -38,4 +38,8 @@
 
 .nav-item.active svg {
   stroke: white;
+}
+.nav-icon {
+  width: 20px;
+  height: 20px;
 }
